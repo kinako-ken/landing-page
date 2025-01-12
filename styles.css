@@ -1,0 +1,68 @@
+:root {
+    --main-dark-background: #1F2937;
+    --main-gray-background: #E5E7EB;
+    --button-color: #3882F6;
+    --main-white-text: #F9FAF8;
+}
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header and Welcome Area */
+.header-welcome {
+    background-color: var(--main-dark-background);
+    height: 80vh;
+}
+
+.header {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.title-page {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: var(--main-white-text);
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: var(--main-white-text);
+    gap: 15px;
+}
+
+.welcome-area {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome-left > h1 {
+    font-size: 48px;
+    color: var(--main-white-text);
+    font-weight: 900;
+}
+
+.welcome-left > p {
+    color: var(--main-white-text)
+}
+
+.welcome-left > button {
+    background-color: var(--button-color);
+    color: var(--main-white-text);
+    padding: 5px 10px;
+}

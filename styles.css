@@ -81,7 +81,10 @@ body {
 .cards-area {
     width: 70%;
     height: 80vh;
-    margin: 0 auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cards-area > h2 {
@@ -90,11 +93,13 @@ body {
     font-weight: 900;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .card-container {
     display: flex;
-    justify-content: space-between
+    justify-content: center;
+    gap: 50px;
 
 }
 
@@ -114,7 +119,7 @@ body {
     border-radius: 8px;
     border: 3px solid var(--button-color);
     width: 245px;
-    height: 245px;
+    height: 200px;
 }
 
 .tokyo {
@@ -123,4 +128,29 @@ body {
 
 .osaka {
     object-position: 100% 0;
+}
+
+/* Customer Testimony Area */
+
+.quote-background {
+    background-color: var(--main-gray-background);
+}
+
+.quote-area {
+    width: 70%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote, .quote-person {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--main-dark-background)
+}
+
+.quote-person {
+    text-align: end;
 }

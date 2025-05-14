@@ -50,7 +50,6 @@ body {
     width: 70%;
     margin: 0 auto;
     gap: 100px;
-    padding: 100px 0;
 }
 
 .welcome-left > h1 {
@@ -73,14 +72,14 @@ body {
 
 .welcome-right > img {
     height: 400px;
-    width: 800px;
+    width: 700px;
 
 }
 
 /* Cards Area */
 .cards-area {
     width: 70%;
-    height: 80vh;
+    height: 100vh;
     margin: auto;
     display: flex;
     flex-direction: column;

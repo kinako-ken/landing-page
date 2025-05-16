@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    width: 70%;
+    width: 80%;
     height: 50px;
     margin: 0 auto;
     display:flex;
@@ -47,7 +47,7 @@ body {
 .welcome-area {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     gap: 100px;
 }

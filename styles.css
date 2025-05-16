@@ -202,3 +202,14 @@ body {
 .call2action-left > h3{
     font-size: 20px;  
 }
+
+/* Footer Section */
+
+.footer {
+    background-color: var(--main-dark-background);
+    height: 100px;
+    color: var(--main-white-text);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
